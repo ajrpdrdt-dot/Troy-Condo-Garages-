@@ -31,8 +31,24 @@ add_action(
 			return;
 		}
 
+		$html = file_get_contents( $file );
+		if ( false !== $html && false === strpos( $html, 'AW-18398757431' ) ) {
+			$gtag = <<<'HTML'
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18398757431"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18398757431');
+</script>
+
+HTML;
+			$html = preg_replace( '/<\/head>/i', $gtag . '</head>', $html, 1 );
+		}
+
 		header( 'Content-Type: text/html; charset=UTF-8' );
-		readfile( $file );
+		echo $html;
 		exit;
 	},
 	0
