@@ -1,4 +1,81 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/pricing/",
+      "destination": "/garage-condos-for-sale-hudson-wi-pricing-size/",
+      "permanent": true
+    },
+    {
+      "source": "/financing/",
+      "destination": "/financing-options/",
+      "permanent": true
+    },
+    {
+      "source": "/financing/garage-condos/",
+      "destination": "/financing-options/",
+      "permanent": true
+    },
+    {
+      "source": "/units/",
+      "destination": "/condos/",
+      "permanent": true
+    },
+    {
+      "source": "/tour/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/schedule-a-tour/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/garage-condos/for-sale/",
+      "destination": "/condos/",
+      "permanent": true
+    },
+    {
+      "source": "/garage-condos/",
+      "destination": "/condos/",
+      "permanent": true
+    },
+    {
+      "source": "/storage-condos/for-sale/",
+      "destination": "/condos/",
+      "permanent": true
+    },
+    {
+      "source": "/storage-condos/",
+      "destination": "/condos/",
+      "permanent": true
+    },
+    {
+      "source": "/thankyou/",
+      "destination": "/thank-you/",
+      "permanent": true
+    },
+    {
+      "source": "/epoxy-garage-floor-coating-condo-garages-hudson-wi/",
+      "destination": "/epoxy-garage-floor-coating-hudson-wi/",
+      "permanent": true
+    },
+    {
+      "source": "/hoa-fees-troy-condo-garage-hudson-wi/",
+      "destination": "/hoa-fees-troy-condo-garages-hudson-wi/",
+      "permanent": true
+    },
+    {
+      "source": "/info@troycondogarages.com",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/%20info@troycondogarages.com",
+      "destination": "/contact/",
+      "permanent": true
+    }
+  ]
 }
