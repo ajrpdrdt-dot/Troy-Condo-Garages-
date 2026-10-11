@@ -49,5 +49,6 @@
     <a class="btn secondary" href="/">Back to Home</a>
   </div>
 </main>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a&&window.gtag){gtag('event','phone_click',{link_url:a.getAttribute('href'),page_path:location.pathname});}},true);</script>
 </body>
 </html>
