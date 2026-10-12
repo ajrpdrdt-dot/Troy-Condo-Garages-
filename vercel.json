@@ -3,6 +3,36 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/guide/",
+      "destination": "/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/garage-condos-for-sale-hudson-wi-pricing-size/",
+      "permanent": true
+    },
+    {
+      "source": "/financing",
+      "destination": "/financing-options/",
+      "permanent": true
+    },
+    {
+      "source": "/units",
+      "destination": "/condos/",
+      "permanent": true
+    },
+    {
+      "source": "/troy-condo-garages-inquiry",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/troy-condo-garages-inquiry/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
       "source": "/pricing/",
       "destination": "/garage-condos-for-sale-hudson-wi-pricing-size/",
       "permanent": true
