@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "google-drive": {
+      "enabled": true
+    },
+    "semrush": {
+      "enabled": true
+    }
+  }
+}

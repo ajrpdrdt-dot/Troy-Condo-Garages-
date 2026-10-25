@@ -1,0 +1,6 @@
+wordpress-backup
+.firecrawl
+.git
+*.tar.gz
+*.sql
+agent-transcripts
