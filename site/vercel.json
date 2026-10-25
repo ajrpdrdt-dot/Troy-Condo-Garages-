@@ -5,9 +5,207 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ultimate-guide-to-premium-garage-condos/",
+      "destination": "/blog-what-is-a-garage-condo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/garage-condo-vs-storage-unit-hudson-wi/",
+      "destination": "/blog-garage-condo-vs-storage-unit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/hoa-fees-troy-condo-garage-hudson-wi/",
+      "destination": "/hoa-fees-troy-condo-garages-hudson-wi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/boat-rv-storage/",
+      "destination": "/boat-storage-hudson-wi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/workshop-man-cave/",
+      "destination": "/man-cave-garage-wisconsin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/car-storage-collector-storage/",
+      "destination": "/classic-car-storage-near-hudson-wi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/garage-condo-tax-benefits-section-179-wisconsin/",
+      "destination": "/garage-condo-investment-wisconsin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/real-estate-investment-angle/",
+      "destination": "/garage-condo-investment-wisconsin/",
+      "statusCode": 301
+    },
+    {
+      "source": "/own-vs-rent/",
+      "destination": "/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/garage-condo/",
+      "destination": "/blog-what-is-a-garage-condo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/location-based/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/troy-condo-garages-inquiry/",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/6512478384/",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/info@troycondogarages.com/",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/faq/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/condo-garages-hudson-wi/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/garage-condos-for-sale-hudson-wi-pricing-size/",
+      "destination": "/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/garage-condo-financing-rates-2027/",
+      "destination": "/garage-condo-financing-hudson-wi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/financing-options/",
+      "destination": "/financing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/phase-iii-at-troy-condo-garages-whats-new-for-buyers/",
+      "destination": "/units/",
+      "statusCode": 301
+    },
+    {
+      "source": "/open-house/",
+      "destination": "/events/",
+      "statusCode": 301
+    },
+    {
+      "source": "/open-house-car-show/",
+      "destination": "/events/",
+      "statusCode": 301
+    },
+    {
+      "source": "/eau-claire/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/chippewa-falls/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/menomonie/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/la-crosse/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/info@troycondogarages.com",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/info%40troycondogarages.com/",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/info%40troycondogarages.com",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*/feed",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*/feed/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tag/:path*/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:path*/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/author/:path*/",
+      "destination": "/",
+      "statusCode": 301
     }
   ]
 }
